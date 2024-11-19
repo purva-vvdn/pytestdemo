@@ -4,7 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 import pytest
-from pages.login_page import LoginPage
 
 driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
